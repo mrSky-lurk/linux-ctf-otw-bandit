@@ -1,4 +1,4 @@
-### Level 4 -> Level 5
+### Level 3 -> Level 4
 
 
 **Goal**<br>
@@ -8,8 +8,8 @@ Connect to bandit3 and find out the password stored in a hidden file
 - check file name by `ls -al`
 - same as before _cat_ & press _tab_
 - **_markdown_**
-    - updates markdown.json file to generate automatic notes.md snippet
-    - Files > Preferences > user snippts > markdown.json
+    - updated markdown.json file to generate automatic notes.md snippet
+    - Files > Preferences > configure snippets > markdown.json
     ```json
     "Notes Boilerplate": {
 		"prefix": "notes-md", //trigger key
@@ -26,7 +26,8 @@ Connect to bandit3 and find out the password stored in a hidden file
 			"Password to next level:: ``"
 		],
 		"description": "Template for notes.md"
-	}```
+	}
+    ```
 
 **Outcome**<br>
 Password to next level: `2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ`

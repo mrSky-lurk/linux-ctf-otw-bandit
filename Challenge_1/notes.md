@@ -1,4 +1,4 @@
-### Level 1 -> Level 2
+### Level 0 -> Level 1
 
 **Goal:** 
 log into the game using SSH. The host to which you need to connect is bandit.labs.overthewire.org, on port 2220. 

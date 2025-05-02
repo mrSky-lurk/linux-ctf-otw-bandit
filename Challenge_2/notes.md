@@ -1,4 +1,4 @@
-### Level 2 -> Level 3
+### Level 1 -> Level 2
 
 **Goal:** 
 Connect to level with username bandit1 and password extracted from last level
