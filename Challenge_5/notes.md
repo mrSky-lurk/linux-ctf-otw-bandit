@@ -12,8 +12,5 @@ Connect to bandit4 and find out the password stored in a only human readable fil
 - `file` command is used to list all files according to their physical types and content types
 - found the oddman Out and voila!
 
-
-
-
 **Outcome**<br>
 Password to next level:: `4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw`
