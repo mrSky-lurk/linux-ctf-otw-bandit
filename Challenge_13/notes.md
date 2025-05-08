@@ -9,6 +9,19 @@ Connect to bandit12 and find out the password
 
 **Learnings**<br>
 ---
+### Creating Temp directory under /tmp with unique name
+```sh
+mktemp -d "mrSky_XXXXXX" # 6 X's will be replaced by unique chars
+O/P:: Permission Denaied
+```
+- We dont have permission to create temp dir with personalized names
+- Either use `mktemp -d` - It ll create a random name temp dir; `-d` is flag for _directory_
+- OR make sure to give a unique name to the dir, as OverTheWire people might delete the directory if it is not unique in between your actions
+- `maketemp -d mrSky_YU90IO80`
+
+### Copy the **data.txt** to your temp dir and Rename it
+- Used `cp`to copy and `mv` to Rename
+
 ### What is _hexdump_?
 - _hexdump_ is a command-line utility used to display the **raw** contents of a file in hexadecimal (and optionally ASCII) format. Think of it as X-ray vision for your files — it shows you what's really inside, byte by byte.
 
@@ -151,6 +164,21 @@ tar -tvf logs_archive.tar.gz    # Just to Peek inside a tar file. '-t' flag spec
             + `00000000: 504b0304 ...`  === zip  | Hex: <span style="color:lime">50 4B 03 04</span>   |  ASCII: <span style="color:lime">PK..</span>
             + `00000000: 425a68...`     === bzip2 | Hex: <span style="color:lime">42 5A 68</span>   |  ASCII: <span style="color:lime">BZh</span>
 
+### Few O/Ps during the de-Compress and Extraction process - For more insights, check out '[command.sh](commands.sh)'
+```sh
+OP:: prev2: gzip compressed data, was "data4.bin", last modi
+OP:: prev3: POSIX tar archive (GNU)
+OP:: -rw-r--r-- root/root     10240 2025-04-10 14:22 data5.bin
+OP:: data6.bin: bzip2 compressed data, block size = 900k
+```
 
-**Outcome**<br>
+### Finally tracked down the passwrd
+- After multiple time de-Compress and Extractions of file we get the file which is simple ASCII Text 
+```sh
+file data8.bin
+OP:: data8: ASCII text # Looks like this is it, if not a trick!
+```
+
+**Final Outcome**<br>
+---
 Password to next level:: `FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn`

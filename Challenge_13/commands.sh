@@ -1,6 +1,5 @@
 # Create temp dir using a unique name
 mktemp -d "mrSky_XXXXXX" # 6 X's will be replaced by unique chars
-
 O/P:: Permission Denaied
 
 # Create temp dir using a unique name
