@@ -2,11 +2,11 @@
 
 
 **Goal**<br>
-Connect to bandit5 and find out the password 
+Connect to bandit5 and find out the password <br>
 File is stored in a file with below criteria
-[x] Human-readable
-[x] Size 1033 bytes
-[x] Not Executable
+- [x] Human-readable
+- [x] Size 1033 bytes
+- [x] Not Executable
 
 **Learnings**<br>
 - `ls -lv` listed down 10 folders, `ls -lv ./*` shows each folder containing around 7-8 files, altogether 700-800 files to look into
