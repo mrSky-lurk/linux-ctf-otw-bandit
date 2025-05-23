@@ -58,14 +58,14 @@ Connect to bandit13 and find out the password for next level
 ---
 ###  ❌ Attempt n -> ***ssh -i /tmp/mrSky_T5HYJ765/sshkey.private -o UserKnownHostsFile=/dev/null bandit14@localhost***   
 - Nope, No luck, I had hit the rock bottom here.
-
+---
 ### The Mistake 🤦‍♂️
 The Mistake I was doing all along was - No Reading the output properly in the Terminal after each attempt
 - I was missing the most important part that is I have `ssh` to the host(_bandit14_) <span style="color:lime">by giving the correct  port</span>
 - Not using the `-p 2220` was the brutal mistake I was continuously doing all along
 - The reason I thought - as I am on current server as a _bandit13_ I dont need to specify the port explicitely
-- Then I realised the terminal was shouting this thing every time - **_`!!! You are trying to log into this SSH server on port 22, which is not intended.`_** - BUT I ignored it every time.
---- 
+- Then I realised the terminal was shouting this thing every time - **_`!!! You are trying to log into this SSH server on port 22, which is not intended.`_** - BUT I ignored it every time. 
+
 ###  ✅ Attempt (n+1) -> ***ssh -i sshkey.private bandit14@localhost -p 2220***
 - Voila! The bouncer says 'Welcome Sir!'
 
