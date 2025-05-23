@@ -42,5 +42,3 @@ done
 **Outcome**<br>
 ---
 Goal Reached! <!-- Password to next level:: `gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8` -->
-<!-- hide-this -->
-

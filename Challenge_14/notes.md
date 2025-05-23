@@ -33,6 +33,7 @@ Connect to bandit13 and find out the password for next level
     + with `ls -l` I can see `-rw-r-----    1 bandit14 bandit13   1679 May 10 02:13 sshkey.private`
         * Means _bandit14_ can read-write BUT _bandit13_ have only read access
 - I need to find a way to include the **_sshkey.private_** while `ssh`
+---
 ###  ❌ Attempt 2 -> ***ssh -i sshkey.private bandit14@localhost***
 - the flag `-i` is used to specify a private key file (or path to `/home/user/key.private`) 
 - It will not get through, if the host not registered already under `.ssh/config`, `ssh-agent`, or the default key list like `id_rsa`, `id_ed25519`, etc.
@@ -45,13 +46,17 @@ Connect to bandit13 and find out the password for next level
     * To check what permission I have here in this directory, lets `ls -ld .` -> this `-d` tells its a directory and `.` tells current directory
         - The only permission I have in this `--------x`
     * To have all the access and permission I need, I can create a Temp Directory > `cp` the **_sshkey.private_** > `chmod 600 sshkey.private` here and call it from there - Lets do it!
+---
 ###  ❌ Attempt 3 -> ***ssh -i /tmp/mrSky_T5HYJ765/sshkey.private bandit14@localhost***   
 - Now I had full faith that it'll work but it did not
 - In the output I saw this - `Failed to add the host to the list of known hosts (/home/bandit13/.ssh/known_hosts).` This may be the issue
     + Naturally `ssh` is trying to add this host(_bandit14_) to the known hosts list of _bandit13_, so that it wont need to for private ssh key again.
     + But I dont have permission to write anything there - "/home/bandit13/.ssh/known_hosts"
     + I can totally ignore this part whith this flag `-o UserKnownHostsFile=/dev/null` - telling shell "Boss, skip it! there is no known host file only"
-###  ❌ Attempt 4 -> ***ssh -i /tmp/mrSky_T5HYJ765/sshkey.private -o UserKnownHostsFile=/dev/null bandit14@localhost***   
+---
+---
+---
+###  ❌ Attempt n -> ***ssh -i /tmp/mrSky_T5HYJ765/sshkey.private -o UserKnownHostsFile=/dev/null bandit14@localhost***   
 - Nope, No luck, I had hit the rock bottom here.
 
 ### The Mistake 🤦‍♂️
@@ -60,12 +65,12 @@ The Mistake I was doing all along was - No Reading the output properly in the Te
 - Not using the `-p 2220` was the brutal mistake I was continuously doing all along
 - The reason I thought - as I am on current server as a _bandit13_ I dont need to specify the port explicitely
 - Then I realised the terminal was shouting this thing every time - **_`!!! You are trying to log into this SSH server on port 22, which is not intended.`_** - BUT I ignored it every time.
-
+--- 
 ###  ✅ Attempt (n+1) -> ***ssh -i sshkey.private bandit14@localhost -p 2220***
 - Voila! The bouncer says 'Welcome Sir!'
 
 ### Locating the physical password
-- East-peasy `cat /etc/bandit_pass/bandit14`
+- Easy-peasy - `cat /etc/bandit_pass/bandit14`
 
 ---
 **Outcome**<br>
