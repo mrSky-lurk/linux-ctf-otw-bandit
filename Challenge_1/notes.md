@@ -17,7 +17,7 @@ Once logged in, go to the Level 1 page to find out how to beat Level 1.
 - Connected successfully
 
 **Outcome**
-Password for the next level is - ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+Goal Reached! <!-- Password to next level:: `ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If` -->
 
 
 

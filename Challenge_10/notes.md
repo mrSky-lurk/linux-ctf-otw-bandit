@@ -17,4 +17,4 @@ B. the _password_ is preceded by few '=' signs
 
 
 **Outcome**<br>
-Password to next level:: `FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey`
+Goal Reached! <!-- Password to next level:: `FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey` -->

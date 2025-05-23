@@ -13,4 +13,4 @@ Connect to bandit7 and find out the password, which is stored in the _data.txt_ 
     - `--color=auto` just to highlight the [key] in case its present
 
 **Outcome**<br>
-Password to next level:: `dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc`
+Goal Reached! <!-- Password to next level:: `dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc` -->

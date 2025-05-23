@@ -67,4 +67,4 @@ Because letting someone run bash as another user (even non-root) is basically gi
 ---
 **Outcome**<br>
 ---
-Password to next level:: `0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO`
+Goal Reached! <!-- Password to next level:: `0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO` -->

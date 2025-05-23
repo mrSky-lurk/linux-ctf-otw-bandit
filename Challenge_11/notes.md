@@ -12,4 +12,4 @@ Connect to bandit10 and find out the password which is located in **data.txt**
     - To override the 'sometextfile.txt' - command:  `base64 sometextfile.txt > sometextfile.txt`
 
 **Outcome**<br>
-Password to next level:: `dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr`
+Goal Reached! <!-- Password to next level:: `dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr` -->

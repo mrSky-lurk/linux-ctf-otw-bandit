@@ -30,5 +30,5 @@ Connect to bandit3 and find out the password stored in a hidden file
     ```
 
 **Outcome**<br>
-Password to next level: `2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ`
+Goal Reached! <!-- Password to next level:: `2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ` -->
 

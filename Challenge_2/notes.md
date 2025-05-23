@@ -9,4 +9,4 @@ Find the Password to next level
 - When the file name is a DASH(-) or any special character - the full location has to be given along with the __cat__ command ```cat ./-``` [check stackOverflow](https://stackoverflow.com/questions/42187323/how-to-open-a-dashed-filename-using-terminal)
 
 **Outcome**
-Password to next level:: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+Goal Reached! <!-- Password to next level:: `263JGJPfgU6LtdEvgfWU1XP5yac29mFx` -->

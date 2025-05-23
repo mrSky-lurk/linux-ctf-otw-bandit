@@ -17,4 +17,4 @@ Connect to bandit8 and find out the password that is stored in **data.txt** and 
 - we used Pipe `|` operator here to merge the commands
 
 **Outcome**<br>
-Password to next level:: `4CKMh1JI91bUIZZPXDqGanal4xvAg0JM`
+Goal Reached! <!-- Password to next level:: `4CKMh1JI91bUIZZPXDqGanal4xvAg0JM` -->

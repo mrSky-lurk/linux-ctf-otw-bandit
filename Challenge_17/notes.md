@@ -77,4 +77,4 @@ Connect to bandit16 and find out the password
 ---
 **Outcome**<br>
 ---
-Password to next level:: `EReVavePLFHtFlFsjn3hyzMlvSuSAcRD`
+Goal Reached! <!-- Password to next level:: `EReVavePLFHtFlFsjn3hyzMlvSuSAcRD` -->

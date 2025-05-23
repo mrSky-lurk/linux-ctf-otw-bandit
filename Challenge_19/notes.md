@@ -23,4 +23,4 @@ Connect to bandit18 and find out the password
 ---
 **Outcome**<br>
 ---
-Password to next level:: `cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8`
+Goal Reached! <!-- Password to next level:: `cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8` -->

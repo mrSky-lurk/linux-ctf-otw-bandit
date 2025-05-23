@@ -30,4 +30,4 @@ But the catch is -
 
 
 **Outcome**<br>
-Password to next level:: `morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj`
+Goal Reached! <!-- Password to next level:: `morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj` -->

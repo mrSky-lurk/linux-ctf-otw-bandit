@@ -45,4 +45,4 @@ File is stored in a file with below criteria
 
 
 **Outcome**<br>
-Password to next level:: `HWasnPhtq9AVKe0dmk45nxy20cvUa6EG`
+Goal Reached! <!-- Password to next level:: `HWasnPhtq9AVKe0dmk45nxy20cvUa6EG` -->

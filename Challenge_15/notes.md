@@ -24,4 +24,4 @@ Connect to bandit14 and find out the password
 ---
 **Outcome**<br>
 ---
-Password to next level:: `8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo`
+Goal Reached! <!-- Password to next level:: `8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo` -->

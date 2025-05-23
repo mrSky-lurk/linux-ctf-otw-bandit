@@ -13,4 +13,4 @@ Connect to bandit4 and find out the password stored in a only human readable fil
 - found the oddman Out and voila!
 
 **Outcome**<br>
-Password to next level:: `4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw`
+Goal Reached! <!-- Password to next level:: `4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw` -->

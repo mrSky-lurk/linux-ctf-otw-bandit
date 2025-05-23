@@ -18,4 +18,4 @@ Connect to bandit17 and find out the password
 ---
 **Outcome**<br>
 ---
-Password to next level:: `x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO`
+Goal Reached! <!-- Password to next level:: `x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO` -->

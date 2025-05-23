@@ -8,5 +8,5 @@ Connect to bandit2 and find out the password stored ina  file named:: _spaces in
 - **Cheat Code:** type *cat ./* and press *tab* 
 
 **Outcome**<br>
-Password to next level:: `MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx`
+Goal Reached! <!-- Password to next level:: `MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx` -->
 

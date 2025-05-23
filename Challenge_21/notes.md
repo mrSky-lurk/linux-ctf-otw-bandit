@@ -75,4 +75,4 @@ Connect to bandit20 and run the setuid binary file that,
 ---
 **Outcome**<br>
 ---
-Password to next level:: `EeoULMCra2q0dSkYj561DX7s1CpBuOBt`
+Goal Reached! <!-- Password to next level:: `EeoULMCra2q0dSkYj561DX7s1CpBuOBt` -->

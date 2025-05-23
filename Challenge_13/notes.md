@@ -181,4 +181,4 @@ OP:: data8: ASCII text # Looks like this is it, if not a trick!
 
 **Final Outcome**<br>
 ---
-Password to next level:: `FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn`
+Goal Reached! <!-- Password to next level:: `FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn` -->

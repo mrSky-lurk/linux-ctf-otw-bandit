@@ -65,4 +65,4 @@ Connect to bandit15 and find out the password for next level
 ---
 **Outcome**<br>
 ---
-Password to next level:: `kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx`
+Goal Reached! <!-- Password to next level:: `kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx` -->
