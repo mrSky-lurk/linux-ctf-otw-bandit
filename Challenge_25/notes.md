@@ -12,8 +12,8 @@ Connect to bandit24 and find out the password
 ---
 **Learnings**<br>
 ---
-- once connecting to `nc localhost 30002` - the daemon expects the Key 🔑 whick consists of two things
-    1. _bandot24 password_ -> I have ✅
+- once connecting to `nc localhost 30002` - the daemon expects the Key 🔑 which consists of two things
+    1. _bandit24 password_ -> I have ✅
     2. 4 digit Pin  -> I Donot have ❌
 - The only way to find out the correct pin is to hit and try all possible combinations - Brute Force
 - To achieve that, I need a script which Launches `nc` and hit it with all possible 🔑, in a loop 
