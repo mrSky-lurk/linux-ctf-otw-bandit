@@ -4,7 +4,7 @@
 **Goal**<br>
 ---
 Connect to bandit27
-- Clone a git repo from _ssh://bandit27-git@localhost/home/bandit27-git/repo_ via the port `2220`. The password for the user _bandit29-git_ is the same as for the user _bandit29_.
+- Clone a git repo from _ssh://bandit27-git@localhost/home/bandit27-git/repo_ via the port `2220`. The password for the user _bandit27-git_ is the same as for the user _bandit27_.
 - Find the password lying around
 
 ---
